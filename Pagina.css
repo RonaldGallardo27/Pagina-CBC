@@ -1,0 +1,140 @@
+body{
+    background: linear-gradient(green,black);
+    font-family: segoe UI;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.inicio{
+    background: rgb(126, 212, 83);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 25px 0 black;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+}
+
+.main{
+    display: flex;
+    flex: 1;
+}
+
+.barra{
+    background: rgb(126, 212, 83);
+    margin: 5px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 0 black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    background: rgba(46, 155, 32, 0.281);
+    letter-spacing: 0.9px;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2{
+    border-left:  2px solid green;
+    width: auto;
+    padding: 2px;
+}
+
+
+
+.contenido{
+    flex-direction: column;
+    background: linear-gradient(rgb(215, 214, 214),rgb(160, 160, 156));
+    background-attachment: fixed;
+    padding: 15px;
+    width: 20000px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+input{
+    background: rgb(95, 196, 62);
+    color: rgb(0, 0, 0);
+    border-width: 4px;
+    border-color: rgb(42, 70, 32);
+    border-radius: 10px;
+}
+
+li{
+    padding: 2px;
+}
+
+img{
+    border-radius: 15px;
+    width: 275px;
+
+}
+
+.zoomimg{
+    padding: 5px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.zoomimg:hover{
+    transform: scale(1.2);
+}
+
+.imagensoft{
+    background: #7ed453;
+    width: 275px;
+    border-radius: 15px; 
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.imagensoft:hover{
+    transform: translateY(-20px);
+}
+
+.imagengan{
+    background: #7ed453;
+    width: 275px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.imagengan:hover{
+    transform: translateY(-20px); 
+}
+
+.imagenges{
+    background: #7ed453;
+    width: 275px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.imagenges:hover{
+    transform: translateY(-20px); 
+}
+
